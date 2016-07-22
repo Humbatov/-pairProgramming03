@@ -1,0 +1,83 @@
+.verticalSpacer{
+	padding-top:20px;
+	}
+#priceList{
+	width: 100%;
+	min-height: 640px;
+	background: #FFFFFF;
+	h1{
+		font-size: 25px;
+		line-height: 36px;
+		font-weight: 800;
+		color: #555;
+	}
+	h2{
+		font-size: 13px;
+		color: #999;
+	}
+	.col-md-12{
+		padding: 0px;
+		height: 420px;
+		border: 3px solid #f1f1f1;
+		margin-left: 5px;
+		position: relative;
+			.focus{
+			top: 20px;
+		}
+	.type{
+		width: 100%;
+		height: 68px;
+		border: 1px solid #f1f1f1;
+	}
+	
+	.price{
+		width: 100%;
+		height: 103px;
+		border: 1px solid #f1f1f1;
+		}
+		.price h4{
+			font-size: 50px;
+			color: #555;
+		}
+	.price h5{
+		font-size: 13px;
+	    font-style: italic;
+    	line-height: 13px;
+    	display: block;
+    	font-weight: 800;
+		}
+	.text{
+		width: 100%;
+		height: 196px;
+		padding: 20px 50px;
+	}
+	.link{
+		width: 100%;
+		height: 51px;
+		padding-top: 10px;
+		background: #fbfbfb;
+		}
+	.link a{
+		text-decoration: none;
+		color: gray;
+		font-weight: 300;
+		}
+	.link a:hover{
+		color: #428bca;
+		}
+	.link p{
+		font-size: 18px;
+		}
+	h3{
+		font-size: 18px;
+		color: #555;
+		font-weight: 800;
+		}
+	h6{
+		font-size: 13px;
+		color: #999;
+		line-height: 30px;
+		}
+	}
+	
+}
