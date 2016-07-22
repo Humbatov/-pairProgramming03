@@ -1,0 +1,29 @@
+$mainHeight:275px;
+$littleFontSize:15px;
+$avarageFontSize:20px;
+$mainColor:#31A3DD;
+
+#customer {
+	width:100%;
+	height:$mainHeight;
+	background:black url('../../images/demo-2.png') repeat center;
+	background-size:contain;
+	h1{
+		color:#555555;
+		font-weight:600;
+	}
+	i{
+		padding:25px 0px 10px;
+	}	
+	p , i{
+		color:#999999
+	}
+	p{
+		font-size: $littleFontSize;
+		span{font-weight:600;}
+		&:nth-child(2){
+			font-size:0.9em;
+		}
+	}
+}
+

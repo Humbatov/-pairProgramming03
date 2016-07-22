@@ -1,0 +1,49 @@
+#footer{
+	background-color:#414547;
+	height:400px;
+	color: #c2c2c2;
+
+	div:first-child{
+		display: block;
+		margin-top:30px;
+		
+
+			h5{
+				color: white;
+			}
+	}
+	.secondpart{
+		min-height: 50px;
+		display: block;
+		margin-left:25px;
+		
+			img{
+				float: left;
+				padding:0 5px;
+			}
+
+			span, .title{
+				color: white;
+			    border-bottom: 2px solid #31A3DD;
+			    padding-bottom: 11px;
+			    text-transform: uppercase;
+			}
+			a{
+				color: white;
+				text-decoration:none;
+				font-size: 1.2em;
+			}
+			.button, input{
+				display: block;
+				width: 100%;
+				margin-bottom: 10px;
+			}
+			.button.medium, input {
+    			padding: 0px 30px 9px;
+			}
+			.button.color {
+    			background-color: #31A3DD;
+    			color: #fff;
+			}
+	}
+}
